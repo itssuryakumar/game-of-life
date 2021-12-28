@@ -1,5 +1,5 @@
 FROM tomcat:8-jre8
 
-COPY target/gameoflife.war /usr/local/tomcat/webapps/gameoflife.war
+COPY gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/gameoflife.war
 
 EXPOSE 8080
